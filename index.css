@@ -1,0 +1,88 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+p {
+  text-align: justify;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+input {
+  padding: 5px;
+}
+h2 {
+  text-align: center;
+}
+h5 {
+  width: 90vw;
+}
+h3 {
+  padding: 20px 10px 20px 10px;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+p {
+  padding: 10px 10px 10px 10px;
+  border-bottom: 2px solid black;
+}
+
+.DUTIES {
+  border: 2px solid black;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.lightGray {
+  background-color: lightgray;
+}
+
+.signature {
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 792px) {
+  .signature {
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+  .flex {
+    flex-direction: column !important;
+  }
+  .displayFlex {
+    flex-direction: column !important;
+    grid-gap: 20px !important;
+  }
+}
+
+.signature p {
+  padding: 0px 0px 0px 0px;
+  border-bottom: 0px solid black;
+}
+
+.flex {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  grid-gap: 10px;
+  flex-direction: row;
+  border-bottom: 2px solid black;
+}
+.displayFlex {
+  display: flex;
+  align-items: start;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.noBorder p {
+  border-bottom: none;
+}
+.padding {
+  padding: 10px 10px 10px 10px;
+}
